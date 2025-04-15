@@ -2,8 +2,8 @@ import fs from "fs";
 import fetch from "node-fetch";
 
 const API_URL = "https://api.intospace.io/chat/message";
-const AUTH_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJlbWFpbCI6ImFtYW5rdW1hcmdvdXJoQGdtYWlsLmNvbSIsImlhdCI6MTc0NDYyODc1NCwiZXhwIjoxNzc2MTg2MzU0LCJhdWQiOiJodHRwczovL3lvdXJkb21haW4uY29tIiwiaXNzIjoiZmVhdGhlcnMiLCJzdWIiOiJ0VnNlRnJGRlFLZzlnSXhvIiwianRpIjoiNTgyYjY1YmQtNWYyNi00NWY2LWE3M2MtM2U3OWIxMzAxMmYyIn0.XhNbVqebaHdyJjKfwbIRfjnnN6XQr9HgeiHXmqBRdwU"; // Replace this with your real token
-const YOUR_SENDER_ID = "tVseFrFFQKg9gIxo";
+const AUTH_TOKEN = "AUTH_TOKEN"; // Replace this with your real token
+const YOUR_SENDER_ID = "YOUR_SENDER_ID";
 const TEAM_ID = "614396f2f76dbe0010b1d7ab";
 const OUTPUT_FILE = "my-work-updates.html";
 
